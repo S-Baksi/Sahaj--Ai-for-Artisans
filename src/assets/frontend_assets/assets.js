@@ -108,6 +108,7 @@ import cto_img from './cto_img.png'
 import featured_artisan from './featured_artisan.jpg'
 import artisan_local from './artisan_local.webp'
 import eco_impact from './eco_impact.webp'
+import eco_hero from './eco_hero.webp'
 import bamboo_workshop from './bamboo_workshop.png'
 import block_print_workshop from './block_print_workshop.webp'
 import weaving_workshop from './weaving_workshop.jpeg'
@@ -173,14 +174,14 @@ export const assets = {
   art_img12,art_img13,art_img14,art_img15,art_img16,
     art_img17,art_img18,art_img19,art_img20,
   artisan21,artisan22,artisan23,artisan24,
-  ceo_img,artisan_head_img,cpo_img,cto_img,user_icon,hero_login,artisan_working,featured_artisan,artisan_local,eco_impact,user1,user2
+  ceo_img,artisan_head_img,cpo_img,cto_img,user_icon,hero_login,artisan_working,featured_artisan,artisan_local,eco_impact,eco_hero,user1,user2
 }
 
 export const products = [
     {
         _id: "aaaaa",
         name: "Terracotta Pottery",
-        description: "Believed to be one of the oldest of crafts, pottery has always been in vogue. Over the years, owing to popular demand, the art has expanded to include new designs under its umbrella. The clay is moulded into different shapes and sizes to make coffee mugs, wall panels, vases, animal motifs and statues of mythological figures.",
+        description: "Believed to be one of the oldest of crafts, pottery has always been in vogue. Over the years, owing to popular demand, the art has expanded to include new designs under its [...]
         price: 1000,
         image: [p_img1],
         category: "Pottery",
@@ -194,7 +195,7 @@ export const products = [
     {
         _id: "aaaab",
         name: "Banjara Handicrafts",
-        description: "The semi-nomadic tribes of Banjara are regarded as the patrons of this craft. The women make vivid patch work quilts abound in geometric patterns. About three to six layers of reused fabric are held together by running stitches. Silver, brass, gold, ivory, animal bone, mirrors and even plastic are transformed as embellishments on these garments. They are mainly found in the districts of Bellary, Bijapur, Raichur, Gulbarga and Belgaum.",
+        description: "The semi-nomadic tribes of Banjara are regarded as the patrons of this craft. The women make vivid patch work quilts abound in geometric patterns. About three to six layers [...]
         price: 1200,
         image: [p_img2],
         category: "Handmade Clothing",
@@ -208,7 +209,7 @@ export const products = [
     {
         _id: "aaaac",
         name: "Kinhal Wood Carving",
-        description: "Kinhal wood carving is the lacquerware woodcraft that takes its name from a small town in Koppal district. The craft was highly patronized by the Vijayanagara kings. Using a paste of tamarind seeds and pebbles to stick carved parts of wood, the Chitragars or artists create exquisite figurines and idols. A mixture of pebble powder and liquid gum is then used to sculpt ornaments and jewellery on these figures. The breathtaking designs of the Kinhal art can be easily differentiated from other forms of art by its vibrant colours and intricate designs. Kinhal toys have been given the Geographical Indication (GI) tag by the World Trade Organisation.",
+        description: "Kinhal wood carving is the lacquerware woodcraft that takes its name from a small town in Koppal district. The craft was highly patronized by the Vijayanagara kings. Using a[...]
         price: 820,
         image: [p_img3],
         category: "Home Decor",
@@ -222,7 +223,7 @@ export const products = [
     {
         _id: "aaaad",
         name: "Channapatna Lacquerware",
-        description: "The toys, which are lightweight yet tough, were originally made exclusively from ivory wood and coated with lacquer made from vegetable dyes. Traditionally, the colours used are a mix of vegetable dyes and food-grade pigments. The natural dyes include turmeric for yellow, indigo powder for blue, vermillion or kumkum powder for orange and red, and katha (acacia tree extract) for brown. The colours used for these toys specially for infants/ children are non-toxic and thus safe. For the 2015 Republic Day parade, the Karnataka tableau featured Channapatna handicrafts and won the third prize.",
+        description: "The toys, which are lightweight yet tough, were originally made exclusively from ivory wood and coated with lacquer made from vegetable dyes. Traditionally, the colours used[...]
         price: 710,
         image: [p_img4],
      
@@ -236,7 +237,7 @@ export const products = [
     {
         _id: "aaaae",
         name: "Gokak Toys",
-        description: "In Gokak, local artisans create bright and colorful wooden toys mainly in the form of fruits, vegetables, animals and birds. This craft is believed to be at least 200 years old. Here, the toys are made using a specialised soft variety of wood, usually hariwala, polki, and hale wood.",
+        description: "In Gokak, local artisans create bright and colorful wooden toys mainly in the form of fruits, vegetables, animals and birds. This craft is believed to be at least 200 years [...]
         price: 830,
         image: [p_img5],
         category: "Home Decor",
@@ -250,7 +251,7 @@ export const products = [
     {
         _id: "aaaaf",
         name: "Rosewood Carving",
-        description: "The ancient craft of rosewood carving is known for its elaborate rosewood inlay work. The art has been practiced in Mysore for centuries and is said to have enjoyed the patronage of the Mysore Maharajas. Artisans meticulously even out the wood and prepare it for etching the designs. The heavy timber that rosewood is, it's used extensively in furniture, cabinetry and architectural woodwork as well.",
+        description: "The ancient craft of rosewood carving is known for its elaborate rosewood inlay work. The art has been practiced in Mysore for centuries and is said to have enjoyed the patr[...]
         price: 940,
         image: [p_img6],
         category: "Home Decor",
@@ -278,7 +279,7 @@ export const products = [
     {
         _id: "aaaah",
         name: "Earrings Design 3(Combo)",
-        description: "Fabric earrings offer a lightweight, eco-friendly, and stylish accessory for any occasion. Crafted from vibrant fabrics, these unique earrings add a touch of color and charm to your look while supporting sustainable fashion. Perfect for casual or festive wear!",
+        description: "Fabric earrings offer a lightweight, eco-friendly, and stylish accessory for any occasion. Crafted from vibrant fabrics, these unique earrings add a touch of color and charm[...]
         price: 740,
         image: [p_img8],
         category: "Jewelry",
@@ -619,4 +620,3 @@ export const products = [
         culture: "Kannadiga"
     }
 ]
-
