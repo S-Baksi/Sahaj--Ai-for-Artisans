@@ -9,7 +9,7 @@
   position: relative;
   height: 70vh;
   background-size: cover;
-  background-image: url("C:\Users\ASUS\OneDrive\Desktop\artisan-e-commerce\src\assets\frontend_assets\workshop_hero.webp");
+  background-image: url("../assets/frontend_assets/workshop_hero.webp");
   background-position: center;
   display: flex;
   align-items: center;

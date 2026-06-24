@@ -9,48 +9,6 @@ import p_img7 from './p_img7.jpg'
 import p_img8 from './p_img8.jpg'
 import p_img9 from './p_img9.jpg'
 import p_img10 from './p_img10.jpg'
-import p_img11 from './p_img11.png'
-import p_img12 from './p_img12.png'
-import p_img13 from './p_img13.png'
-import p_img14 from './p_img14.png'
-import p_img15 from './p_img15.png'
-import p_img16 from './p_img16.png'
-import p_img17 from './p_img17.png'
-import p_img18 from './p_img18.png'
-import p_img19 from './p_img19.png'
-import p_img20 from './p_img20.png'
-import p_img21 from './p_img21.png'
-import p_img22 from './p_img22.png'
-import p_img23 from './p_img23.png'
-import p_img24 from './p_img24.png'
-import p_img25 from './p_img25.png'
-import p_img26 from './p_img26.png'
-import p_img27 from './p_img27.png'
-import p_img28 from './p_img28.png'
-import p_img29 from './p_img29.png'
-import p_img30 from './p_img30.png'
-import p_img31 from './p_img31.png'
-import p_img32 from './p_img32.png'
-import p_img33 from './p_img33.png'
-import p_img34 from './p_img34.png'
-import p_img35 from './p_img35.png'
-import p_img36 from './p_img36.png'
-import p_img37 from './p_img37.png'
-import p_img38 from './p_img38.png'
-import p_img39 from './p_img39.png'
-import p_img40 from './p_img40.png'
-import p_img41 from './p_img41.png'
-import p_img42 from './p_img42.png'
-import p_img43 from './p_img43.png'
-import p_img44 from './p_img44.png'
-import p_img45 from './p_img45.png'
-import p_img46 from './p_img46.png'
-import p_img47 from './p_img47.png'
-import p_img48 from './p_img48.png'
-import p_img49 from './p_img49.png'
-import p_img50 from './p_img50.png'
-import p_img51 from './p_img51.png'
-import p_img52 from './p_img52.png'
 
 
 import logo from './logo.png'
@@ -181,7 +139,7 @@ export const products = [
     {
         _id: "aaaaa",
         name: "Terracotta Pottery",
-        description: "Believed to be one of the oldest of crafts, pottery has always been in vogue. Over the years, owing to popular demand, the art has expanded to include new designs under its [...]
+        description: "Believed to be one of the oldest crafts, pottery has always been in vogue. Over the years, owing to popular demand, the art has expanded to include new designs under its traditional forms.",
         price: 1000,
         image: [p_img1],
         category: "Pottery",
@@ -195,7 +153,7 @@ export const products = [
     {
         _id: "aaaab",
         name: "Banjara Handicrafts",
-        description: "The semi-nomadic tribes of Banjara are regarded as the patrons of this craft. The women make vivid patch work quilts abound in geometric patterns. About three to six layers [...]
+        description: "The semi-nomadic tribes of Banjara are regarded as the patrons of this craft. Women make vivid patchwork quilts rich in geometric patterns, traditionally stitched from colorful cloth scraps.",
         price: 1200,
         image: [p_img2],
         category: "Handmade Clothing",
@@ -209,7 +167,7 @@ export const products = [
     {
         _id: "aaaac",
         name: "Kinhal Wood Carving",
-        description: "Kinhal wood carving is the lacquerware woodcraft that takes its name from a small town in Koppal district. The craft was highly patronized by the Vijayanagara kings. Using a[...]
+        description: "Kinhal wood carving is the lacquerware woodcraft that takes its name from a small town in Koppal district. The craft was highly patronized by the Vijayanagara kings and is prized for its polished finish.",
         price: 820,
         image: [p_img3],
         category: "Home Decor",
@@ -223,7 +181,7 @@ export const products = [
     {
         _id: "aaaad",
         name: "Channapatna Lacquerware",
-        description: "The toys, which are lightweight yet tough, were originally made exclusively from ivory wood and coated with lacquer made from vegetable dyes. Traditionally, the colours used[...]
+        description: "The toys, which are lightweight yet tough, were originally made exclusively from ivory wood and coated with lacquer made from vegetable dyes. Traditionally, the colours used are bright and long lasting.",
         price: 710,
         image: [p_img4],
      
@@ -237,7 +195,7 @@ export const products = [
     {
         _id: "aaaae",
         name: "Gokak Toys",
-        description: "In Gokak, local artisans create bright and colorful wooden toys mainly in the form of fruits, vegetables, animals and birds. This craft is believed to be at least 200 years [...]
+        description: "In Gokak, local artisans create bright and colorful wooden toys mainly in the form of fruits, vegetables, animals and birds. This craft is believed to be at least 200 years old.",
         price: 830,
         image: [p_img5],
         category: "Home Decor",
@@ -251,7 +209,7 @@ export const products = [
     {
         _id: "aaaaf",
         name: "Rosewood Carving",
-        description: "The ancient craft of rosewood carving is known for its elaborate rosewood inlay work. The art has been practiced in Mysore for centuries and is said to have enjoyed the patr[...]
+        description: "The ancient craft of rosewood carving is known for its elaborate inlay work and fine detailing. The art has been practiced in Mysore for centuries and remains highly valued.",
         price: 940,
         image: [p_img6],
         category: "Home Decor",
@@ -279,7 +237,7 @@ export const products = [
     {
         _id: "aaaah",
         name: "Earrings Design 3(Combo)",
-        description: "Fabric earrings offer a lightweight, eco-friendly, and stylish accessory for any occasion. Crafted from vibrant fabrics, these unique earrings add a touch of color and charm[...]
+        description: "Fabric earrings offer a lightweight, eco-friendly, and stylish accessory for any occasion. Crafted from vibrant fabrics, these unique earrings add a touch of color and charm.",
         price: 740,
         image: [p_img8],
         category: "Jewelry",
@@ -310,7 +268,6 @@ export const products = [
         description: "Long Sleeve 100 % handspun and handwoven stylish and comfortable shirt made in Villages.",
         price: 1100,
         image: [p_img10],
-        category: "Men",
         category: "Handmade Clothing",
         subCategory: "Handwoven",
         sizes: ["S", "L", "XL"],

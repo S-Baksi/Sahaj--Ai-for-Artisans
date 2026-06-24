@@ -29,7 +29,7 @@ const Collection = () => {
     setPriceRange(newPriceRange);
   };
 
-  const applyFilter = () => {
+  useEffect(() => {
     let filtered = products.slice();
 
     if (showSearch && search) {
@@ -58,28 +58,19 @@ const Collection = () => {
       (item) => item.price >= priceRange[0] && item.price <= priceRange[1]
     );
 
-    setFilterProducts(filtered);
-  };
-
-  useEffect(() => {
-    applyFilter();
-  }, [category, subCategory, products, search, showSearch, priceRange, region, culture]);
-
-  useEffect(() => {
-    let sorted = filterProducts.slice();
     switch (sortType) {
       case "low-high":
-        sorted.sort((a, b) => a.price - b.price);
+        filtered.sort((a, b) => a.price - b.price);
         break;
       case "high-low":
-        sorted.sort((a, b) => b.price - a.price);
+        filtered.sort((a, b) => b.price - a.price);
         break;
       default:
-        applyFilter();
-        return;
+        break;
     }
-    setFilterProducts(sorted);
-  }, [sortType]);
+
+    setFilterProducts(filtered);
+  }, [category, subCategory, products, search, showSearch, priceRange, region, culture, sortType]);
 
   const FilterSection = ({ title, options, selected, toggle }) => (
     <div className={`border border-gray-200 rounded-lg shadow-md p-5 mt-6 bg-white ${showFilter ? "" : "hidden"} sm:block transition-all duration-300`}>

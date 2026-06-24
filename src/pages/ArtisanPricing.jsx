@@ -3,7 +3,7 @@ import './ArtisanPricing.css';
 
 const ArtisanPricing = () => {
   // Sample data - in a real app, this would come from an API
-  const [artisans, setArtisans] = useState([
+  const [artisans] = useState([
     {
       id: 1,
       name: "Maria Gonzalez",

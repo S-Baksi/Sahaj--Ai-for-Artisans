@@ -1,21 +1,21 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { assets } from "../assets/frontend_assets/assets";
 
 const Hero = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const heroImages = [
+  const heroImages = useMemo(() => [
     assets.hero_img1,
     assets.hero_img2,
     assets.hero_img3,
-  ];
+  ], []);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prev) => (prev + 1) % heroImages.length);
     }, 5000);
     return () => clearInterval(interval);
-  }, []);
+  }, [heroImages.length]);
 
   return (
     <div className="relative overflow-hidden bg-white rounded-2xl shadow-xl border border-gray-100">
